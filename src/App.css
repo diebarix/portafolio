@@ -1,0 +1,23 @@
+:root{
+	--bg-color: #0B3037;
+	--menu-color: #48cae4;
+	--icons-color: #888;
+	--cards-color: #0096c7;
+	--extra-color: #003B46;
+    --text-color: #90E0EF;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body {
+    background-color: var(--bg-color);
+}
+::selection {
+    background-color: #159;
+}

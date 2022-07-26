@@ -1,0 +1,36 @@
+.skills-container {
+	margin-top: 16rem;
+	padding: 2rem;
+	min-width: 25rem;
+	flex: 10rem;
+	border-radius: 3rem;
+	color: #fff;
+	border-top: 1.2rem solid var(--menu-color);
+	border-bottom: 1.2rem solid var(--cards-color);
+	border-left: 1.2rem solid var(--extra-color);
+	border-right: 1.2rem solid var(--extra-color);
+}
+.skills-container h2 {
+	font-size: 2.4rem;
+	text-align: center;
+	font-weight: 900;
+	color: var(--cards-color);
+	margin-bottom: 3.8rem;
+}
+.skills-container h4 {
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin: 1.8rem 0 3rem 0;
+	color: #fff;
+	filter: drop-shadow(0 0 0.01rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--cards-color))
+		drop-shadow(0 0 0.1rem var(--cards-color))
+		drop-shadow(0 0 0.05rem var(--text-color))
+		drop-shadow(0 0 0.05rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color));
+}
+#responsive-logo {
+	color: #fff;
+}

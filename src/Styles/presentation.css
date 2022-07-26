@@ -1,0 +1,7 @@
+.presentation-container{
+    padding: 3rem 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}

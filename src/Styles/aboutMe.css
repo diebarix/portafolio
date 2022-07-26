@@ -1,0 +1,167 @@
+strong {
+	font-weight: 900;
+	color: var(--menu-color);
+}
+.about-me {
+	padding: 2rem;
+	min-width: 25rem;
+	flex: 20rem 1;
+	margin-top: 7rem;
+	margin-bottom: 10rem;
+	border-radius: 2rem;
+	border-top: 1.2rem solid var(--cards-color);
+	border-bottom: 1.2rem solid var(--menu-color);
+	border-right: 1.2rem solid var(--extra-color);
+	border-left: 1.2rem solid var(--extra-color);
+	color: #fff;
+	text-align: center;
+}
+.about-me-encabezado {
+	color: var(--text-color) !important;
+}
+.fa {
+	color: var(--cards-color);
+	margin: 0 0.4rem;
+}
+.about-me h2 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 2.2rem;
+	padding: 0 0 2rem 0;
+	margin-top: 0.5rem;
+	color: var(--cards-color);
+}
+.about-me h4 {
+	margin: 1rem 0 2rem 0;
+	font-size: 1.25rem;
+	color: #fff;
+	font-weight: 900;
+}
+.about-me p {
+	margin-top: 3.5rem;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	text-align: justify;
+}
+.about-me h3 {
+	margin: 2rem 0 0.1rem 0;
+	text-align: center;
+	font-weight: 900;
+	font-size: 2rem;
+	color: #fff;
+	filter: drop-shadow(0 0 0.01rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--cards-color))
+		drop-shadow(0 0 0.1rem var(--cards-color))
+		drop-shadow(0 0 0.05rem var(--text-color))
+		drop-shadow(0 0 0.05rem var(--extra-color))
+		drop-shadow(0 0 0.1rem var(--extra-color));
+}
+.icon-container {
+	display: flex;
+}
+.social-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 2.5rem;
+}
+#redes-title {
+	margin-top: 4.8rem;
+}
+.social-container li {
+	list-style: none;
+	position: relative;
+	text-align: center;
+}
+.social-container li a {
+	text-decoration: none;
+}
+.social-container li a i {
+	color: var(--menu-color);
+	font-size: 3rem;
+}
+.social-container li::before {
+	position: absolute;
+	height: 0;
+	overflow: hidden;
+	font-family: "Font Awesome 5 Brands", "Font Awesome 5 Free";
+	font-size: 3rem;
+	transition: 0.5s ease-in-out;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+.social-container li:nth-child(1)::before {
+	content: "\f232";
+	color: #1fa736;
+	border-bottom: 4px solid var(--extra-color);
+	pointer-events: none;
+}
+.social-container li:nth-child(1):hover::before {
+	height: 3rem;
+}
+.social-container li:nth-child(2)::before {
+	content: "\f08c";
+	color: #3467b3;
+	border-bottom: 4px solid var(--cards-color);
+	pointer-events: none;
+}
+.social-container li:nth-child(2):hover::before {
+	height: 3rem;
+	pointer-events: none;
+}
+.social-container li:nth-child(3)::before {
+	content: "\f09b";
+	color: #444;
+	border-bottom: 4px solid var(--extra-color);
+	pointer-events: none;
+}
+.social-container li:nth-child(3):hover::before {
+	height: 3rem;
+}
+.social-container li:nth-child(4)::before {
+	content: "\f0e0";
+	color: #fff;
+	border-bottom: 4px solid var(--cards-color);
+	pointer-events: none;
+}
+.social-container li:nth-child(4):hover::before {
+	height: 3rem;
+}
+.social-container li:nth-child(5)::before {
+	content: "\f16c";
+	color: red;
+	border-bottom: 4px solid var(--extra-color);
+	text-align: center;
+	pointer-events: none;
+}
+.social-container li:nth-child(5):hover::before {
+	height: 3rem;
+}
+.social-container li:nth-child(6)::before {
+	content: "\f37c";
+	color: #d38c22;
+	border-bottom: 4px solid var(--cards-color);
+	pointer-events: none;
+}
+.social-container li:nth-child(6):hover::before {
+	height: 3rem;
+}
+.hobbies-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#hobbies-title {
+	margin-top: 2.7rem;
+}
+.hobbies-container li {
+	list-style: none;
+	text-align: center;
+	padding: 1rem;
+}
+.hobbies-container li h4 {
+	font-size: 1.5rem;
+	margin-bottom: 1.4rem;
+	font-weight: 500;
+}

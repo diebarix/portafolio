@@ -1,0 +1,57 @@
+.banner-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.container-words-banner {
+	font-size: 4.5rem;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	width: 100%;
+	top: 8rem;
+	left: 2.8rem;
+}
+.container-words-banner::before {
+	content: "FRONTED";
+	color: var(--cards-color);
+	margin-top: 2.8rem;
+}
+.container-words-banner::after {
+	content: "DEVELOPER";
+	margin-top: 27rem;
+	color: var(--text-color);
+}
+.image-banner {
+	background-repeat: repeat;
+	width: 20rem;
+	height: auto;
+	margin: 8rem auto auto auto;
+	display: block;
+	border-radius: 10rem;
+	position: relative;
+	filter: brightness(0.8) contrast(104%) drop-shadow(1.3rem 1.5rem 1.4rem black)
+		invert(0%);
+}
+.banner-name {
+	font-size: 3rem;
+	margin: 2rem auto;
+	position: relative;
+	color: var(--menu-color);
+}
+.banner-name-container {
+	margin: 2rem auto;
+	padding: 1.3rem;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 40rem 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
